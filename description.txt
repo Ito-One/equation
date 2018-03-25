@@ -1,0 +1,27 @@
+this class will be placed between the parsing phase
+and the execution of the expressions which will be described
+by the equation class(in part calling the basic parser function)
+
+
+	raw input string -> various   ->   high level  -> methods
+	"3x -5 = 4"			interfaces   equation class
+	
+	the various interface will put correctly the data 
+	into the equation class 
+	netx will be described the various interfaces
+
+there will be two copies of the equation, which will be kept by
+an equation handler one for printing and logging the passages
+and one for doing the real shit
+every member of the equation must be parsed separately to 
+take a vector of token which some will be merged into less tokens
+until the equation get solved
+
+a me pero non me ne frega un cazzo di come i dati vengono trasfor
+mati in modo che possano essere messi nell'equazioni me bensi di
+come l'equazione gestisca i suoi membri
+la nostra equazione potrà svolgere vari metodi specifici
+(class lo_l_equat):
+	scambiare da membro a membro(con cambio di segno)
+	attuare 
+
